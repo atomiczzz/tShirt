@@ -1,0 +1,55 @@
+*{
+  border-sizing:border-box;
+  border:1px dotted orange;
+  font-size:0;
+}
+img{
+  max-width:100%;
+}
+.shirtCon{
+  border:3px solid #8EE3EF;
+  max-width:33.33%;
+}
+.imgCon{
+  display:block;
+  width:100%;
+}
+.buttCon{
+  display:block;
+  width:100%;
+  text-align:center;
+  font-size:0;
+}
+.classButt{
+  display:inline-block;
+  width:18%;
+  border:2px solid #8EE3EF;
+  background:#AEF3E7;
+}
+.className{
+  width:33.33%;
+}
+h1{
+  font-size:14px;
+  display:inline-block;
+  vertical-align:top;
+}
+h1{
+  max-width:56%;
+  display:inline-block;
+}
+p{
+  font-size:10px;
+  display:inline-block;
+  float:right;
+}
+.text{
+  max-width:33.70%;
+}
+.class-menu li{
+  list-style: none;
+  font-size:14px;
+}
+#b5:hover>.class-menu{
+  
+}
