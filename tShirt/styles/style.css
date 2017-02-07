@@ -25,6 +25,7 @@ img{
   width:18%;
   border:2px solid #8EE3EF;
   background:#AEF3E7;
+  position:relative;
 }
 .className{
   width:33.33%;
@@ -46,10 +47,44 @@ p{
 .text{
   max-width:33.70%;
 }
-.class-menu li{
+.shop-menu li{
   list-style: none;
   font-size:14px;
 }
-#b5:hover>.class-menu{
-  
+#b5:hover > .shop-menu{
+  opacity:1;
+  visibility:visible;
+}
+#b4:hover > .shop-menu{
+  opacity:1;
+  visibility:visible;
+}
+.shop-menu{
+  margin-bottom:3px;
+  position: absolute;
+  top:-150px;
+  left:-20px;
+  transform: translateY(100%);
+  background:#8EE3EF;
+  padding: 15px;
+  color: black;
+  width: 50px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s all ease;
+}
+.green{
+  margin-bottom:3px;
+  padding-left:25px;
+  display:block;
+  width:15px;
+  height:15px;
+  background:green;
+}
+.red{
+  padding-left:25px;
+  display:block;
+  width:15px;
+  height:15px;
+  background:red;
 }
